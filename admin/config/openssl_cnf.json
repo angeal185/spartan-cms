@@ -1,0 +1,24 @@
+{
+  "admin": {
+    "type": "ECDSA",
+    "key": {
+      "curve": "secp384r1",
+      "file": "/admin/cert/localhost.key"
+    },
+    "cert": {
+      "config": "/admin/cert/req.txt",
+      "file": "/admin/cert/localhost.cert"
+    }
+  },
+  "rest": {
+    "type": "ECDSA",
+    "key": {
+      "curve": "secp384r1",
+      "file": "/app/cert/localhost.key"
+    },
+    "cert": {
+      "config": "/app/cert/req.txt",
+      "file": "/app/cert/localhost.cert"
+    }
+  }
+}

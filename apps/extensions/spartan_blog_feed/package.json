@@ -1,0 +1,12 @@
+{
+  "name": "spartan_feed_reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ben eaves",
+  "license": "MIT"
+}

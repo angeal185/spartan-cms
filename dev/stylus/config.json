@@ -1,0 +1,30 @@
+{
+  "mode": "blog",
+  "compress": true,
+  "dest": {
+    "blog": "blog/app/css/styles.min.css",
+    "mobile": "apps/mobile/spartan-blog-app/www/css/styles.min.css"
+  },
+  "base_styl": "styles.styl",
+  "file_name": "styles.min.css",
+  "files": ["**/**/*.styl"],
+  "config": {
+    "persistent": true,
+    "ignored": "",
+    "ignoreInitial": false,
+    "followSymlinks": true,
+    "cwd": "./stylus",
+    "disableGlobbing": false,
+    "usePolling": false,
+    "interval": 100,
+    "binaryInterval": 300,
+    "alwaysStat": false,
+    "depth": 99,
+    "awaitWriteFinish": {
+      "stabilityThreshold": 2000,
+      "pollInterval": 100
+    },
+    "ignorePermissionErrors": false,
+    "atomic": 100
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "spartan_disqus_comment_count",
+  "version": "1.0.0",
+  "description": "discus comment counts for spartan cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ben eaves",
+  "license": "MIT",
+  "homepage": "https://github.com/angeal185/spartan_disqus_comment_count",
+  "download": "https://gitlab.com/angeal185/spartan_disqus_comment_count/-/archive/master/spartan-cms-pluggins-master.tar.gz",
+  "ico_url": "/images/lg_32.png"
+}

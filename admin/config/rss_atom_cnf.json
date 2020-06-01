@@ -1,0 +1,150 @@
+{
+  "rss_version": "2.0",
+  "recent_length": 25,
+  "rss_ext": "xml",
+  "atom_ext": "xml",
+  "atom_items": {
+    "posts": {
+      "title": "Spartan blog post feed",
+      "id": "",
+      "category": "posts",
+      "link": "https://localhost:4000",
+      "subtitle": "",
+      "updated": "2020-02-21T02:14:01.576Z",
+      "icon": "https://localhost:5000/app/images/rss/rss_logo.png",
+      "logo": "https://localhost:5000/app/images/rss/rss_logo.png",
+      "generator": "spartan cms",
+      "rights": "",
+      "author": {
+        "uri": "https://localhost:5000/app/images/rss/rss_logo.png",
+        "name": "",
+        "email": "https://localhost:5000/"
+      }
+    },
+    "news": {
+      "title": "spartan blog news feed",
+      "id": "",
+      "category": "posts",
+      "link": "https://localhost:4000",
+      "subtitle": "",
+      "updated": "2020-02-21T02:01:09.829Z",
+      "icon": "https://localhost:5000/app/images/rss/rss_logo.png",
+      "logo": "https://localhost:5000/app/images/rss/rss_logo.png",
+      "generator": "spartan cms",
+      "rights": "",
+      "author": {
+        "uri": "https://localhost:5000/app/images/rss/rss_logo.png",
+        "name": "test",
+        "email": "https://localhost:5000/"
+      }
+    },
+    "gallery": {
+      "title": "spartan blog news feed",
+      "id": "",
+      "category": "gallery",
+      "link": "https://localhost:4000",
+      "subtitle": "",
+      "updated": "2020-02-21T02:31:58.722Z",
+      "icon": "https://localhost:5000/app/images/rss/rss_logo.png",
+      "logo": "https://localhost:5000/app/images/rss/rss_logo.png",
+      "generator": "spartan cms",
+      "rights": "",
+      "author": {
+        "uri": "https://localhost:5000/app/images/rss/rss_logo.png",
+        "name": "test",
+        "email": "https://localhost:5000/"
+      }
+    }
+  },
+  "rss_items": {
+    "posts": {
+      "title": "spartan blog post feed",
+      "category": "posts",
+      "link": "https://localhost:4000",
+      "description": "",
+      "pubDate": "2020-02-21T02:14:01.576Z",
+      "managingEditor": "",
+      "webMaster": "",
+      "language": "en-us",
+      "ttl": "60",
+      "generator": "spartan cms",
+      "copyright": "",
+      "image": {
+        "url": "https://localhost:5000/app/images/rss/rss_logo.png",
+        "title": "",
+        "link": "https://localhost:5000/",
+        "width": "",
+        "height": ""
+      },
+      "skipHours": {
+        "hour": "12"
+      }
+    },
+    "news": {
+      "title": "",
+      "category": "posts",
+      "link": "https://localhost:5000/",
+      "description": "",
+      "pubDate": "2020-02-21T02:01:09.829Z",
+      "managingEditor": "",
+      "webMaster": "",
+      "language": "en-us",
+      "ttl": "60",
+      "generator": "spartan cms",
+      "copyright": "",
+      "image": {
+        "url": "https://localhost:5000/app/images/rss/rss_logo.png",
+        "title": "",
+        "link": "https://localhost:5000/",
+        "width": "",
+        "height": ""
+      },
+      "skipHours": {
+        "hour": ""
+      }
+    },
+    "gallery": {
+      "title": "",
+      "category": "gallery",
+      "link": "https://localhost:5000/",
+      "description": "",
+      "pubDate": "2020-02-21T02:31:58.722Z",
+      "managingEditor": "",
+      "webMaster": "",
+      "language": "en-us",
+      "ttl": "60",
+      "generator": "spartan cms",
+      "copyright": "",
+      "image": {
+        "url": "https://localhost:5000/app/images/rss/rss_logo.png",
+        "title": "",
+        "link": "https://localhost:5000/",
+        "width": "",
+        "height": ""
+      },
+      "skipHours": {
+        "hour": ""
+      }
+    }
+  },
+  "item": {
+    "title": "",
+    "link": "",
+    "description": "",
+    "pubDate": "",
+    "author": "",
+    "category": "",
+    "guid": ""
+  },
+  "atom_item": {
+    "id": "",
+    "title": "",
+    "link": "",
+    "summary": "",
+    "category": "",
+    "updated": "",
+    "author": {
+      "name": ""
+    }
+  }
+}

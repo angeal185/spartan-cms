@@ -1,0 +1,16 @@
+[
+  "./admin/config/ace_cnf.json",
+  "./admin/config/gzip_cnf.json",
+  "./admin/config/index.json",
+  "./admin/config/ip_cnf.json",
+  "./admin/config/mincnf.json",
+  "./admin/config/mincss.json",
+  "./admin/config/minjs.json",
+  "./admin/config/openssl_cnf.json",
+  "./admin/config/sec_cnf.json",
+  "./admin/config/tiny_cnf.json",
+  "./blog/api/data/index.json",
+  "./blog/api/data/index.json",
+  "./blog/api/feed/index.json",
+  "./blog/app/config/index.json"
+]

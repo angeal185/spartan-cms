@@ -1,0 +1,130 @@
+{% macro link(i) %}
+  <link rel="stylesheet" href="/css/{{i}}.css">
+{% endmacro %}
+
+{% macro script(i) %}
+  <script src="/modules/{{i}}.mjs" type="module"></script>
+{% endmacro %}
+
+{% macro link_plugin(a,b) %}
+  <link rel="stylesheet" href="/{{a}}/{{b}}/app/css/index.css">
+{% endmacro %}
+
+{% macro script_plugin(a,b) %}
+  <script src="/{{a}}/{{b}}/app/modules/index.mjs" type="module"></script>
+{% endmacro %}
+
+
+{% macro header() %}
+  <div class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h1 class="m-0 text-dark">Dashboard v2</h1>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active">Dashboard v2</li>
+          </ol>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </div>
+{% endmacro %}
+
+{% macro sb_devide(i) %}
+<hr class="sidebar-divider">
+<div class="sidebar-heading">{{i}}</div>
+{% endmacro %}
+
+{% macro sb_brand(img) %}
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+  <div class="sidebar-brand-icon rotate-n-15">
+    <img src="/{{img}}"></i>
+  </div>
+  <div class="sidebar-brand-text mx-3">Spartan<small>&nbsp;CMS</small></div>
+</a>
+{% endmacro %}
+
+
+{% macro sb_single(i) %}
+<li class="nav-item">
+  <a class="nav-link" href="/{{i[1]}}">
+    <i class="fas fa-fw fa-{{i[2]}}"></i>
+    <span>{{i[0]|capitalize}}</span>
+  </a>
+</li>
+{% endmacro %}
+
+{% macro single_drop(i) %}
+  <span id="{{i[0]}}Lnk" class="dropdown-item">
+    <i class="fas fa-{{i[1]}} fa-sm fa-fw mr-2 text-gray-400"></i>
+    <span>{{i[0]|capitalize}}</span>
+  </span>
+{% endmacro %}
+
+{% macro nav_single(i) %}
+<li class="nav-item dropdown no-arrow">
+  <span class="nav-link" id="{{i[0]}}" title="{{i[0]}}">
+    <i class="fas fa-{{i[1]}}"></i>
+  </span>
+</li>
+{% endmacro %}
+
+{% macro nav_dd(i) %}
+<li class="nav-item dropdown no-arrow mx-1">
+  <span class="nav-link dropdown-toggle" data-target="dd-{{i[0]}}" data-toggle="dropdown">
+    <i class="fas fa-{{i[1]}} fa-fw"></i>
+  </span>
+</li>
+<div id="dd-{{i[0]}}" class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in">
+  <h6 class="dropdown-header">{{i[0]|capitalize}}</h6>
+  <div id="{{i[0]}}"></div>
+</div>
+{% endmacro %}
+
+{% macro nav_toggle() %}
+<button id="sidebarToggleTop" class="btn btn-link  rounded-circle mr-3">
+  <i class="fa fa-bars"></i>
+</button>
+{% endmacro %}
+
+{% macro nav_side_dd(i) %}
+<li class="nav-item dropdown no-arrow">
+  <span class="nav-link dropdown-toggle" id="userDropdown" data-target="dd-user" data-toggle="dropdown">
+    <i class="fas fa-wrench fa-fw"></i>
+  </span>
+</li>
+<div id="dd-user" class="dropdown-menu dropdown-menu-right shadow animated--grow-in">
+  {% for item in i %}
+    {{single_drop([item[0], item[1]])}}
+  {% endfor %}
+</div>
+{% endmacro %}
+
+{% macro sb_drop(i,e,x) %}
+<li class="nav-item">
+  <span class="nav-link collapsed" href="#" data-toggle="collapse" data-target="collapse_{{i}}">
+    <i class="fas fa-fw fa-{{e}}"></i>
+    <span>{{i|capitalize}}</span>
+  </span>
+  <div id="collapse_{{i}}" class="collapse" aria-labelledby="headingTwo">
+    <div class="py-2 collapse-inner rounded">
+      {% for item in x %}
+        <a class="collapse-item" href="/{{i}}/{{item}}">{{item|capitalize}}</a>
+      {% endfor %}
+    </div>
+  </div>
+</li>
+{% endmacro %}
+
+{% macro footer() %}
+<footer id="footer" class="sticky-footer bg-white">
+  <div class="container my-auto">
+    <div class="copyright text-center my-auto">
+      <span id="copyright">Copyright &copy; Your Website {{Y}}</span>
+    </div>
+  </div>
+</footer>
+{% endmacro %}

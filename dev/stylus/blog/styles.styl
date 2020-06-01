@@ -1,0 +1,7 @@
+$basepath ?= './stylus/blog/'
+
+@import pathjoin($basepath, 'includes')
+
+for key,val in includes
+  if val is true
+    @import  pathjoin($basepath, 'imports', key)

@@ -1,0 +1,9 @@
+{
+  "base_url": "./plugins/admin/spartan_disqus_comment_count",
+  "settings": {
+    "api": "fdJbeBzgJma3ZGNehxArMqKL1FTCi9760HZzHhXaOz1HquwwvBilENpNLHz9UnPn",
+    "src": "blog-4l5uws4c2a",
+    "language": "en",
+    "site_base_url": "https://localhost"
+  }
+}

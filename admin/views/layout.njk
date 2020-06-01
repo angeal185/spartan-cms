@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+{% block body %}
+  <div id="wrapper">
+    {% include "includes/sidebar.njk" %}
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+        {% include "includes/navbar.njk" %}
+        <div id="main-content" class="container-fluid">
+          {% block main %}{% endblock %}
+        </div>
+      </div>
+      {{macro.footer()}}
+    </div>
+  </div>
+{% endblock %}

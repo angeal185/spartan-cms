@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "version_url": "https://raw.githubusercontent.com/angeal185/versioning/master/versions.json",
+  "base_url": "https://localhost:4000",
+  "copyright": "© {{year}} Spartan CMS",
+  "base_title": "Spartan blog",
+  "base_logo": "/app/images/lg_32.png",
+  "urls":{
+    "posts": "/api/data/search/index/",
+    "news": "/api/data/news/index/",
+    "posts_category": "/api/data/search/cat/",
+    "news_category": "/api/data/news/cat/",
+    "posts_cat": "/#/categories/",
+    "news_cat": "/#/news_categories/",
+    "author": "/#/author/",
+    "catlist": "/api/data/tagcat.json"
+  },
+  "social": [{
+    "title": "follow us",
+    "url": "",
+    "ico": "icon-facebook"
+  },{
+    "title": "follow us",
+    "url": "",
+    "ico": "icon-twitter"
+  },{
+    "title": "follow us",
+    "url": "",
+    "ico": "icon-linkedin"
+  }],
+  "theme": {
+    "base_url": "https://bootswatch.com/4/{{theme}}/bootstrap.min.css",
+    "base_theme": "/app/css/bootstrap.min.css",
+    "options": ["cerulean","cosmo","cyborg","darkly","flatly","journal","litera","lumen","lux","materia","minty","pulse","sandstone","simplex","sketchy","slate","solar","spacelab","superhero","united","yeti"]
+  }
+}

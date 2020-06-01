@@ -1,0 +1,20 @@
+{
+  "delay": "300",
+  "restartable": "rs",
+  "main": "./admin.js",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "admin/db",
+    "admin/safe",
+    "admin/cert",
+    "admin/public/data",
+    "blog/api",
+    "blog/api/feed/**/**",
+    "test",
+    "blog/static/config",
+    "index.html"
+  ],
+  "verbose": false,
+  "ext": "njk json js mjs css html"
+}

@@ -1,0 +1,5 @@
+{
+  "whitelist": ["::1"],
+  "blacklist": [],
+  "trace_url": "https://extreme-ip-lookup.com/json/"
+}

@@ -1,0 +1,18 @@
+[ req ]
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+prompt = no
+distinguished_name = req_distinguished_name
+req_extensions = req_ext
+
+[ req_distinguished_name ]
+C=AU
+ST=spartan_blog
+L=spartan_blog
+O=spartan_blog
+OU=spartan_blog
+CN=localhost
+
+[ req_ext ]
+subjectAltName = IP.1:0.0.0.0

@@ -1,0 +1,9 @@
+<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+  {{macro.nav_toggle()}}
+  <ul class="navbar-nav ml-auto">
+    {{macro.nav_single(['fullscreen','compress'])}}
+    {{macro.nav_dd(['alerts','bell'])}}
+    {{macro.nav_dd(['messages','envelope'])}}
+    {{macro.nav_side_dd([['settings', 'cogs'],['logout', 'sign-out-alt']])}}
+  </ul>
+</nav>

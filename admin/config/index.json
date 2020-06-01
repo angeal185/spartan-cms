@@ -1,0 +1,113 @@
+{
+  "base_url": "localhost",
+  "blog_publish_url": "https://localhost:4000",
+  "rest_publish_url": "https://localhost:5500",
+  "port": 5000,
+  "appport": 4000,
+  "restport": 5500,
+  "mobileport": 4500,
+  "monitorport": 3500,
+  "wsport": 7000,
+  "ws_max_retry": 50,
+  "output_min": true,
+  "log_size": 16000000,
+  "login": {
+    "silent": {
+      "active": false,
+      "key": "339a01c7d8c1cc8d7bc5e459e9e2a4a062c8cba9f061a71e40c09a70532cd8e74c28be16af4dd64c64e8890c237c50458b9d05c051a45efa8a8098c008207f31",
+      "key_length": 8,
+      "duration": 30000
+    }
+  },
+  "feed": {
+    "recent_count": 50,
+    "types": [
+      "json",
+      "csv",
+      "xml"
+    ],
+    "tar": true
+  },
+  "shortcut": {
+    "enabled": true,
+    "items": [
+      {
+        "title": "post create",
+        "dest": "/posts/create"
+      },
+      {
+        "title": "news create",
+        "dest": "/news/create"
+      },
+      {
+        "title": "page create",
+        "dest": "/pages/create"
+      },
+      {
+        "title": "test 4",
+        "dest": "/4"
+      },
+      {
+        "title": "test 5",
+        "dest": "/"
+      },
+      {
+        "title": "test 6",
+        "dest": "/"
+      },
+      {
+        "title": "test 7",
+        "dest": "/4"
+      },
+      {
+        "title": "test 8",
+        "dest": "/"
+      },
+      {
+        "title": "test 9",
+        "dest": "/"
+      }
+    ]
+  },
+  "server": {
+    "requestCert": false,
+    "rejectUnauthorized": false,
+    "ciphers": "ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:!MEDIUM:!LOW",
+    "ecdhCurve": "secp384r1",
+    "honorCipherOrder": true,
+    "minVersion": "TLSv1.2"
+  },
+  "ace": {
+    "selectionStyle": "line",
+    "highlightActiveLine": true,
+    "highlightSelectedWord": true,
+    "readOnly": false,
+    "cursorStyle": "ace",
+    "hScrollBarAlwaysVisible": false,
+    "vScrollBarAlwaysVisible": false,
+    "showLineNumbers": true,
+    "showGutter": true,
+    "fontSize": "1rem",
+    "fixedWidthGutter": false,
+    "useWorker": true,
+    "useSoftTabs": true,
+    "tabSize": 4,
+    "wrap": true,
+    "foldStyle": "markbegin",
+    "theme": "ace/theme/eclipse"
+  },
+  "tinymce": {
+    "base_url": "/js/tinymce",
+    "selector": "#rich-editor",
+    "branding": false,
+    "plugins": [
+      "link image imagetools table spellchecker media template anchor emoticons pagebreak searchreplace wordcount fullscreen"
+    ],
+    "contextmenu": "link image imagetools table spellchecker media hr",
+    "toolbar": "bold italic underline strikethrough removeformat subscript superscript backcolor selectall copy cut paste undo redo forecolor formats fontformats fontsizes anchor link unlink image table media template emoticons hr pagebreak searchreplace wordcount save cancel",
+    "skin": "oxide",
+    "theme": "silver",
+    "templates": "/data/tiny.json"
+  },
+  "duration": 10800000
+}

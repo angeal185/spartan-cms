@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "spartan_blog_feed",
+  "author": "ben eaves",
+  "homepage_url": "https://localhost:4000/apps",
+  "version": "1.0.0",
+  "description": "spartan blog post/news feed",
+  "icons": {
+    "48": "app/images/lg_48.png",
+    "96": "app/images/lg_96.png"
+  },
+  "background": {
+    "page": "app/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "app/images/lg_48.png",
+    "default_title": "spartan blog",
+    "default_popup": "app/index.html"
+  },
+  "options_ui": {
+   "page": "app/config.html"
+  },
+  "permissions": [
+    "*://localhost/*",
+    "https://bootswatch.com/4/*",
+    "https://raw.githubusercontent.com/angeal185/versioning/master/versions.json",
+    "activeTab",
+    "webRequest",
+    "storage",
+    "tabs"
+  ]
+}

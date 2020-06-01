@@ -1,0 +1,5 @@
+{
+  "log": "./store/logs/",
+  "config": "./admin/config/",
+  "utils": "./admin/utils/"
+}

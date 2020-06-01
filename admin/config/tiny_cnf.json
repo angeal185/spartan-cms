@@ -1,0 +1,13 @@
+{
+  "base_url": "/js/tinymce",
+  "selector": "#rich-editor",
+  "branding": false,
+  "plugins": [
+    "link image imagetools table spellchecker media template anchor emoticons pagebreak searchreplace wordcount fullscreen"
+  ],
+  "contextmenu": "link image imagetools table spellchecker media hr",
+  "toolbar": "bold italic underline strikethrough removeformat subscript superscript backcolor selectall copy cut paste undo redo forecolor formats fontformats fontsizes anchor link unlink image table media template emoticons hr pagebreak searchreplace wordcount save cancel",
+  "skin": "oxide",
+  "theme": "silver",
+  "templates": "/data/tiny.json"
+}
